@@ -1,0 +1,386 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+BestFoods
+</name>
+</assembly>
+<members>
+<member name="T:BestFoods.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:BestFoods.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:BestFoods.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:BestFoods.My.Resources.Resources._19">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BestFoods.My.Resources.Resources._20130101_011408">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BestFoods.My.Resources.Resources.beverly_hills_luxury_600x399">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BestFoods.My.Resources.Resources.Copy__4__of_6">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BestFoods.My.Resources.Resources.Copy_of_Copy_of_19">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BestFoods.My.Resources.Resources.icons8_cheap_2_64px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BestFoods.My.Resources.Resources.icons8_hamburger_48px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BestFoods.My.Resources.Resources.icons8_shopping_cart_48px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BestFoods.My.Resources.Resources.icons8_shopping_cart_48px_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BestFoods.My.Resources.Resources.icons8_soup_plate_48px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BestFoods.My.Resources.Resources.military_jets_1109093_1920">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BestFoods.My.Resources.Resources.plouzane_1758197_1920">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BestFoods.My.Resources.Resources.windows_10_wallpaper_backgrounds">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BestFoods.My.Resources.Resources.wood_1866659_640">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:BestFoods.bestfoods2DataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:BestFoods.bestfoods2DataSet.pendingorders2DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BestFoods.bestfoods2DataSet.pendingorders2Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BestFoods.bestfoods2DataSet.pendingorders2RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BestFoods.bestfoods2DataSetTableAdapters.pendingorders2TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BestFoods.bestfoods2DataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:BestFoods.bestfoods2DataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(BestFoods.bestfoods2DataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:BestFoods.bestfoods2DataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(BestFoods.bestfoods2DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:BestFoods.bestfoods2DataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(BestFoods.bestfoods2DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:BestFoods.bestfoods2DataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:BestFoods.bestfoods2DataSetTableAdapters.TableAdapterManager.UpdateAll(BestFoods.bestfoods2DataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:BestFoods.bestfoods2DataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:BestFoods.bestfoods2DataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:BestFoods.BestFoodsDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:BestFoods.BestFoodsDataSet.AdminsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BestFoods.BestFoodsDataSet.Attendent_OrdersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BestFoods.BestFoodsDataSet.CashiersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BestFoods.BestFoodsDataSet.Daily_EarningsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BestFoods.BestFoodsDataSet.FoodsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BestFoods.BestFoodsDataSet.Kitchen_StaffDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BestFoods.BestFoodsDataSet.Pending_OrdersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BestFoods.BestFoodsDataSet.TransactionsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BestFoods.BestFoodsDataSet.WaitersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BestFoods.BestFoodsDataSet.AdminsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BestFoods.BestFoodsDataSet.Attendent_OrdersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BestFoods.BestFoodsDataSet.CashiersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BestFoods.BestFoodsDataSet.Daily_EarningsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BestFoods.BestFoodsDataSet.FoodsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BestFoods.BestFoodsDataSet.Kitchen_StaffRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BestFoods.BestFoodsDataSet.Pending_OrdersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BestFoods.BestFoodsDataSet.TransactionsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BestFoods.BestFoodsDataSet.WaitersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BestFoods.BestFoodsDataSet.AdminsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BestFoods.BestFoodsDataSet.Attendent_OrdersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BestFoods.BestFoodsDataSet.CashiersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BestFoods.BestFoodsDataSet.Daily_EarningsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BestFoods.BestFoodsDataSet.FoodsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BestFoods.BestFoodsDataSet.Kitchen_StaffRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BestFoods.BestFoodsDataSet.Pending_OrdersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BestFoods.BestFoodsDataSet.TransactionsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BestFoods.BestFoodsDataSet.WaitersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BestFoods.BestFoodsDataSetTableAdapters.AdminsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BestFoods.BestFoodsDataSetTableAdapters.Attendent_OrdersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BestFoods.BestFoodsDataSetTableAdapters.CashiersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BestFoods.BestFoodsDataSetTableAdapters.Daily_EarningsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BestFoods.BestFoodsDataSetTableAdapters.FoodsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BestFoods.BestFoodsDataSetTableAdapters.Kitchen_StaffTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BestFoods.BestFoodsDataSetTableAdapters.Pending_OrdersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BestFoods.BestFoodsDataSetTableAdapters.TransactionsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BestFoods.BestFoodsDataSetTableAdapters.WaitersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BestFoods.BestFoodsDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:BestFoods.BestFoodsDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(BestFoods.BestFoodsDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:BestFoods.BestFoodsDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(BestFoods.BestFoodsDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:BestFoods.BestFoodsDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(BestFoods.BestFoodsDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:BestFoods.BestFoodsDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:BestFoods.BestFoodsDataSetTableAdapters.TableAdapterManager.UpdateAll(BestFoods.BestFoodsDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:BestFoods.BestFoodsDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:BestFoods.BestFoodsDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
